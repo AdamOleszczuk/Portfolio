@@ -1,0 +1,251 @@
+body{
+    background-color:#000000;
+    font-family: 'poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    line-height: 1,5;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+.top_bar{
+    background-color: #ffffff;
+    color: #000000;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 4px rgb(177, 153, 153);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.top_bar_item{
+
+    padding: 8px 16px;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    color:#000000;
+    text-decoration: none;
+    transition: background-color 0.5s;
+
+}
+.top_bar_item:hover{
+    color:  #ffffff;
+    background-color:#000000;
+}
+.profile_pic{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 25%;
+    text-align: right;
+}
+
+section, header{
+    padding: 40px 60px 20px 60px;
+    max-width: 940px;
+    margin : 0 auto;
+}
+header{
+    padding-top: 90px;
+    display: flex;
+    align-items: center ;
+    justify-content:space-around;
+}
+.about-me{
+    margin: 20px;
+    max-width: 400px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+
+.description li{
+    list-style: outside;
+    line-height: 1.5;
+    
+}
+
+.logo-pw{
+
+    border: 2px solid #000000;
+    background-color: #7cbe7c;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.5s;
+}
+.logo-pw:hover{
+    background-color: #ffffff;
+}
+
+
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: auto;
+    max-width: 650px;
+
+
+}
+
+section h2{
+    border:2px solid #ffffff;
+    color: #000000;
+    background-color:#ffffff ;
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    box-shadow: 0 0 30px rgb(177, 153, 153);
+}
+
+.cv_download_link{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 25px;
+    transition: background-color 0.5s;
+}
+.cv_download_link:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+.cv_download_link:focus{
+    outline: none;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.project-description{
+    max-width: 460px;
+}
+.project-blog{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-logo{
+    font-family: fantasy, sans-serif;
+    color: #ffc32d;
+    font-size: 36px;
+    padding: 8px 16px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    transition: background-color 0.5s;
+}
+
+.blog-logo:hover{
+    color: #000000;
+    background-color: #ffc32d;
+
+}
+
+.project-portfolio{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-icon{
+    margin-right: 70px;
+    padding: 8px 16px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    color:#ffffff;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+
+.home-icon:hover{
+    color:  #000000;
+    background-color:#ffffff;
+}
+
+.link-git{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 0px;
+    border-radius: 25px;
+    transition: background-color 0.5s;
+}
+
+.link-git:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.link-git:focus{
+    outline: none;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.contact-icons{
+
+    list-style: none;
+    line-height: 4;
+    width: 80%;
+    margin: auto;
+}
+
+.contact-icons a{
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 0.75px;
+}
+
+.icon{
+    color:#ffffff;
+    margin-right: 10px;
+    vertical-align: middle;
+    padding: 8px 16px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    transition: background-color 0.5s;
+}
+
+.icon:hover{
+    color: #000000;
+    background-color: #ffffff
+}
+.footer{
+    background-color: #ffffff;
+    color: #000000;
+    height: 70px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 -4px 4px rgb(177, 153, 153);
+
+}
+.footer_item{
+    font-size: 20px;
+    justify-content: center;
+    padding-top: 22.5px
+}
