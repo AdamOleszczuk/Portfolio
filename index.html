@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
-    <head>  
+    <head> 
         <title>Adam Oleszczuk</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
@@ -10,10 +10,10 @@
     <body>
         <nav class="top_bar">
                 <a href="#"><i class=" top_bar_item fa-solid fa-house fa-2x"></i></a>
+                <a href="#projects" class="top_bar_item">Projekty</a>
+                <a href="#tools" class="top_bar_item">Technologie</a>
                 <a href="#experience" class="top_bar_item">Doświadczenie zawodowe</a>
                 <a href="#education" class="top_bar_item">Wykształcenie</a>
-                <a href="#tools" class="top_bar_item">Technologie</a>
-                <a href="#projects" class="top_bar_item">Projekty</a>
                 <a href="#contact" class="top_bar_item">Kontakt</a>           
         </nav>
         <header>
@@ -33,6 +33,44 @@
             <img class="profile_pic"src="zdj-prof2.PNG" alt="Zdjęcie profilowe Adama Oleszczuk"/>
         
         </header>    
+
+        <section id="projects">
+            <h2>Projekty</h2>
+            <div class="projects">
+                <div class="project-blog">
+                    <div class = "project-description">
+                        <h3>Blog filmowy</h3><p>Projekt został wykonany z użyciem języka Python 
+                            oraz frameworku Django. Skorzytsano z bazy danych z pythonanywhere.</p>
+                            <p><a href="https://github.com/AdamOleszczuk/BlogFilmowy" class = "link-git">Link do GitHuba</a></p>           
+                    </div>
+                    <a href="http://adam777.pythonanywhere.com" class="blog-logo"> Blog filmowy <i class="fa-solid fa-film"></i></a>
+                </div>
+                
+                <div class="project-portfolio">
+                    <div class = "project-description">
+                        <h3>Portfolio</h3><p>Czyli strona na której się znajduesz. Projekt został wykonany przy użyciu jezyka HTML 
+                            oraz arkusza styli CSS. Dodatkowe elementy zostały napisane w języku JavaScript.</p>
+                        <p><a href="https://github.com/AdamOleszczuk/Portfolio" class = "link-git">Link do GitHuba</a></p> 
+                    </div>
+                    <a href="#"><i class="home-icon fa-solid fa-house fa-4x"></i></a>
+                </div>
+            </div>
+        </section> 
+
+        <section id="tools">
+            <h2>Techhnologie</h2>
+    
+            <div class="logos">
+                <img  class="python-logo"src="python-logo.PNG" width="150" alt="Logo Pythona"/> </a>
+                <img  class="django-logo"src="django-logo.PNG" width="150" alt="Logo Django"/> </a>
+                <img  class="java-logo"src="java-logo.PNG" width="150" alt="Logo Javy"/> </a>
+                <img  class="sql-logo"src="sql-logo.PNG" width="150" alt="Logo Sql"/> </a>
+                <img  class="js-logo"src="js-logo.PNG" width="90" alt="Logo Js"/> </a>
+                <img  class="html-logo"src="html-logo.PNG" width="90" alt="Logo html"/> </a>
+                <img  class="css-logo"src="css-logo.PNG" width="100" alt="Logo css"/> </a>
+                <img  class="excel-logo"src="excel-logo.PNG" width="200" alt="Logo Excela"/> </a>
+            </div>
+        </section>
 
     <section id="experience">
         <h2>Doświadczenie zawodowe</h2>
@@ -71,47 +109,7 @@
             </div>
         </div>
     </section>
-
-    <section id="tools">
-        <h2>Techhnologie</h2>
-
-        <div class="logos">
-            <img  class="python-logo"src="python-logo.PNG" width="150" alt="Logo Pythona"/> </a>
-            <img  class="django-logo"src="django-logo.PNG" width="150" alt="Logo Django"/> </a>
-            <img  class="java-logo"src="java-logo.PNG" width="150" alt="Logo Javy"/> </a>
-            <img  class="sql-logo"src="sql-logo.PNG" width="150" alt="Logo Sql"/> </a>
-            <img  class="js-logo"src="js-logo.PNG" width="90" alt="Logo Js"/> </a>
-            <img  class="html-logo"src="html-logo.PNG" width="90" alt="Logo html"/> </a>
-            <img  class="css-logo"src="css-logo.PNG" width="100" alt="Logo css"/> </a>
-            <img  class="excel-logo"src="excel-logo.PNG" width="200" alt="Logo Excela"/> </a>
-        </div>
-    </section>
-
-    <section id="projects">
-        <h2>Projekty</h2>
-        <div class="projects">
-            <div class="project-blog">
-                <div class = "project-description">
-                    <h3>Blog filmowy</h3><p>Projekt został wykonany z użyciem języka Python 
-                        oraz frameworku Django. Skorzytsano z bazy danych z pythonanywhere.</p>
-                        <p><a href="https://github.com/AdamOleszczuk/BlogFilmowy" class = "link-git">Link do GitHuba</a></p>           
-                </div>
-                <a href="http://adam777.pythonanywhere.com" class="blog-logo"> Blog filmowy <i class="fa-solid fa-film"></i></a>
-                <!-- <img  class="blog-logo"src="blog-logo.PNG" width="200" alt="Logo Blogu filmowego"/> </a> -->
-            </div>
-            
-            <div class="project-portfolio">
-                <div class = "project-description">
-                    <h3>Portfolio</h3><p>Projekt został wykonany przy uzyciu HTML, CSS oraz JS.</p>
-                    <p><a href="https://github.com/AdamOleszczuk/BlogFilmowy" class = "link-git">Link do GitHuba</a></p> 
-                </div>
-                <a href="#"><i class="home-icon fa-solid fa-house fa-4x"></i></a>
-            </div>
-        </div>
-        
-
-    </section> 
-    
+ 
     <section id="contact">
         <h2>Kontakt</h2>
             <ul class="contact-icons">
@@ -125,7 +123,7 @@
 
     <footer class = "footer">
         <div class="footer_item">
-            Created by Adam Oleszczuk
+            Copyright © 2023 Adam Oleszczuk
         </div>
     </footer>
     <script src="script.js"></script>
