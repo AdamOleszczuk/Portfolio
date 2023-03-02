@@ -1,3 +1,7 @@
+html{
+    overflow-x: hidden;
+}
+
 body{
     background-color:#000000;
     font-family: 'poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -32,12 +36,10 @@ a{
     justify-content: space-around;
 }
 
-.home-item{
-
-}
 
 .top-bar-items{
     justify-content: space-around;
+    display: flex;
 }
 
 .top_bar_item{
@@ -55,6 +57,25 @@ a{
     color:  #ffffff;
     background-color:#000000;
 }
+
+.burger{
+    background-color:#ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+
+
+.line{
+    width: 35px;
+    height: 4px;
+    background: #000000;
+    margin: 7px 2px 7px 2px;
+    border-radius: 15px;
+    transition: .3s ease-in-out;;
+}
+
 .profile_pic{
     width: 300px;
     height: 400px;
@@ -77,10 +98,11 @@ header{
 
 header h1 span{
     font-size: 50px;
+
 }
 .about-me{
     margin: 20px;
-    max-width: 400px;
+    max-width: 340px;
 }
 
 .content{
@@ -156,7 +178,7 @@ section h2{
 }
 
 .project-description{
-    max-width: 460px;
+    max-width: 430px;
 }
 .project-blog{
     max-width: 80%;
@@ -168,10 +190,11 @@ section h2{
 }
 
 .blog-logo{
+    width: 300px;
     font-family: fantasy, sans-serif;
     color: #ffc32d;
     font-size: 36px;
-    padding: 8px 16px;
+    padding: 8px 0px 8px 16px;
     border: 2px solid #000000;
     border-radius: 25px;
     transition: background-color 0.5s;
@@ -192,7 +215,7 @@ section h2{
 }
 
 .home-icon{
-    margin-right: 70px;
+    margin-right: 80px;
     padding: 8px 16px;
     border: 2px solid #000000;
     border-radius: 25px;
@@ -270,4 +293,82 @@ section h2{
     font-size: 20px;
     justify-content: center;
     padding-top: 22.5px
+}
+
+
+@media only screen and (max-width:1000px)  {
+    .burger{
+        display: block;
+        right: 0;
+        transition: .3s ease-in-out;
+    }
+
+    .burger.active {
+        transform:rotate(90deg);
+    }
+
+    .top-bar-container{
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    .top-bar-items{
+        position: absolute;
+        right:0;
+        top: 70px;
+        background-color: #ffffff;
+        padding: 10px;
+        height: 500px;
+        flex-direction: column;
+        text-align: center;
+        transform: translate(100%);
+        transition: 0.5s;
+    }
+
+    .top-bar-items.active {
+        transform: translate(0%);
+    }
+
+
+    .top_bar_item{
+
+        letter-spacing: 1px;
+        font-size: 20px;
+        margin: 0 30px ;
+    
+    }
+}
+
+@media only screen and (max-width:530px)  {
+    .top-bar-items{
+        width: 100%;
+    }
+    .profile_pic{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:780px){
+    .contact-icons span{
+        display: none;
+    }
+}
+@media only screen and (max-width:780px){
+    .contact-icons span{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:850px){
+    .about-me h1{
+        width: 170px;
+        height: 120px;
+    }
+    #experience .content{
+        flex-direction: column;
+    }
+
+    #education .content{
+        flex-direction: column;
+    }
 }
