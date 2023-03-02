@@ -357,6 +357,18 @@ section h2{
     .contact-icons span{
         display: none;
     }
+
+    .contact-icons{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 60px;
+    }
+    .icon.fa-instagram{
+        display: none;
+    }
+
+
 }
 
 @media only screen and (max-width:850px){
@@ -364,8 +376,20 @@ section h2{
         width: 170px;
         height: 120px;
     }
+
+    .project-blog{
+        flex-direction: column;
+    }
+
+    .home-icon{
+        display: none;
+    }
     #experience .content{
         flex-direction: column;
+    }
+
+    .logo-smarttech{
+        width: auto;
     }
 
     #education .content{
