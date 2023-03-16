@@ -1,22 +1,22 @@
-html{
+html {
     overflow-x: hidden;
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
-body{
-    background-color:#000000;
+body {
+    background-color: #afadad;
     font-family: 'poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
-    line-height: 1,5;
+    color: #000000;
+    line-height: 1, 5;
     margin: auto;
 
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.top_bar{
+.top_bar {
     background-color: #ffffff;
     color: #000000;
     height: 65px;
@@ -29,7 +29,7 @@ a{
     right: 0;
 }
 
-.top-bar-container{
+.top-bar-container {
     width: 80%;
     max-width: 1200px;
     display: flex;
@@ -38,29 +38,31 @@ a{
 }
 
 
-.top-bar-items{
+.top-bar-items {
     justify-content: space-around;
     display: flex;
 }
 
-.top_bar_item{
+.top_bar_item {
 
     letter-spacing: 0.5px;
+    margin: 0 5px;
     padding: 8px 16px;
     border: 2px;
     border-radius: 25px;
-    color:#000000;
+    color: #000000;
     text-decoration: none;
     transition: background-color 0.5s;
 
 }
-.top_bar_item:hover{
-    color:  #ffffff;
-    background-color:#000000;
+
+.top_bar_item:hover {
+    color: #ffffff;
+    background-color: #000000;
 }
 
-.burger{
-    background-color:#ffffff;
+.burger {
+    background-color: #ffffff;
     border: none;
     outline: none;
     cursor: pointer;
@@ -68,16 +70,17 @@ a{
 }
 
 
-.line{
+.line {
     width: 35px;
     height: 4px;
     background: #000000;
     margin: 7px 2px 7px 2px;
     border-radius: 15px;
-    transition: .3s ease-in-out;;
+    transition: .3s ease-in-out;
+    ;
 }
 
-.profile_pic{
+.profile_pic {
     width: 300px;
     height: 400px;
     margin: 20px;
@@ -85,54 +88,58 @@ a{
     text-align: right;
 }
 
-section, header{
+section,
+header {
     padding: 40px 60px 20px 60px;
     max-width: 940px;
-    margin : 0 auto;
-}
-header{
-    padding-top: 90px;
-    display: flex;
-    align-items: center ;
-    justify-content:space-around;
+    margin: 0 auto;
 }
 
-header h1 span{
+header {
+    padding-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header h1 span {
     font-size: 50px;
 
 }
-.about-me{
+
+.about-me {
     margin: 20px;
     max-width: 340px;
 }
 
-.content{
+.content {
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
 
 }
 
-.description li{
+.description li {
     list-style: outside;
     line-height: 1.5;
-    
+
 }
 
-.logo-pw{
+.logo-pw {
 
-    border: 2px solid #000000;
+    border: 0px solid #000000;
     background-color: #7cbe7c;
     padding: 10px 20px;
     border-radius: 20px;
     transition: background-color 0.5s;
 }
-.logo-pw:hover{
+
+.logo-pw:hover {
     background-color: #ffffff;
 }
 
 
-.logos{
+.logos {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -145,10 +152,10 @@ header h1 span{
 
 }
 
-section h2{
-    border:2px solid #ffffff;
+section h2 {
+    border: 2px solid #ffffff;
     color: #000000;
-    background-color:#ffffff ;
+    background-color: #ffffff;
     border-radius: 25px;
     padding: 10px 20px;
     display: flex;
@@ -158,8 +165,9 @@ section h2{
     box-shadow: 0 0 30px rgb(177, 153, 153);
 }
 
-.cv_download_link{
-    border: 2px solid #ffffff;
+.cv_download_link {
+    border: 0px solid #000000;
+    background-color: #000000;
     color: #ffffff;
     text-decoration: none;
     padding: 10px 20px;
@@ -168,20 +176,23 @@ section h2{
     border-radius: 25px;
     transition: background-color 0.5s;
 }
-.cv_download_link:hover{
+
+.cv_download_link:hover {
     color: #000000;
     background-color: #ffffff;
 }
-.cv_download_link:focus{
+
+.cv_download_link:focus {
     outline: none;
     color: #000000;
     background-color: #ffffff;
 }
 
-.project-description{
+.project-description {
     max-width: 430px;
 }
-.project-blog{
+
+.project-blog {
     max-width: 80%;
     margin: auto;
     margin-bottom: 20px;
@@ -190,24 +201,24 @@ section h2{
     justify-content: space-between;
 }
 
-.blog-logo{
+.blog-logo {
     width: 300px;
     font-family: fantasy, sans-serif;
     color: #ffc32d;
     font-size: 36px;
     padding: 8px 0px 8px 16px;
-    border: 2px solid #000000;
+    border: 0px solid #000000;
     border-radius: 25px;
     transition: background-color 0.5s;
 }
 
-.blog-logo:hover{
+.blog-logo:hover {
     color: #000000;
     background-color: #ffc32d;
 
 }
 
-.project-portfolio{
+.project-portfolio {
     max-width: 80%;
     margin: auto;
     display: flex;
@@ -215,24 +226,25 @@ section h2{
     justify-content: space-between;
 }
 
-.home-icon{
+.home-icon {
     margin-right: 80px;
     padding: 8px 16px;
-    border: 2px solid #000000;
+    border: 0px solid #000000;
     border-radius: 25px;
-    color:#ffffff;
+    color: #000000;
     text-decoration: none;
     transition: background-color 0.5s;
 }
 
 
-.home-icon:hover{
-    color:  #000000;
-    background-color:#ffffff;
+.home-icon:hover {
+    color: #000000;
+    background-color: #ffffff;
 }
 
-.link-git{
-    border: 2px solid #ffffff;
+.link-git {
+    border: 0px solid #000000;
+    background-color: #000000;
     color: #ffffff;
     text-decoration: none;
     padding: 10px 20px;
@@ -242,18 +254,18 @@ section h2{
     transition: background-color 0.5s;
 }
 
-.link-git:hover{
+.link-git:hover {
     color: #000000;
     background-color: #ffffff;
 }
 
-.link-git:focus{
+.link-git:focus {
     outline: none;
     color: #000000;
     background-color: #ffffff;
 }
 
-.contact-icons{
+.contact-icons {
 
     list-style: none;
     line-height: 4;
@@ -261,27 +273,29 @@ section h2{
     margin: auto;
 }
 
-.contact-icons a{
+.contact-icons a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     letter-spacing: 0.75px;
 }
 
-.icon{
-    color:#ffffff;
+.icon {
+    color: #ffffff;
     margin-right: 10px;
     vertical-align: middle;
     padding: 8px 16px;
-    border: 2px solid #000000;
+    border: 0px solid #000000;
+    background-color: #000000;
     border-radius: 25px;
     transition: background-color 0.5s;
 }
 
-.icon:hover{
+.icon:hover {
     color: #000000;
     background-color: #ffffff
 }
-.footer{
+
+.footer {
     background-color: #ffffff;
     color: #000000;
     height: 70px;
@@ -290,32 +304,33 @@ section h2{
     box-shadow: 0 -4px 4px rgb(177, 153, 153);
 
 }
-.footer_item{
+
+.footer_item {
     font-size: 20px;
     justify-content: center;
     padding-top: 22.5px
 }
 
 
-@media only screen and (max-width:1000px)  {
-    .burger{
+@media only screen and (max-width:1000px) {
+    .burger {
         display: block;
         right: 0;
         transition: .3s ease-in-out;
     }
 
     .burger.active {
-        transform:rotate(90deg);
+        transform: rotate(90deg);
     }
 
-    .top-bar-container{
+    .top-bar-container {
         justify-content: space-between;
         display: flex;
     }
-    
-    .top-bar-items{
+
+    .top-bar-items {
         position: absolute;
-        right:0;
+        right: 0;
         top: 70px;
         background-color: #ffffff;
         padding: 10px;
@@ -331,35 +346,37 @@ section h2{
     }
 
 
-    .top_bar_item{
+    .top_bar_item {
 
         letter-spacing: 1px;
         font-size: 20px;
-        margin: 0 30px ;
-    
+        margin: 0 30px;
+
     }
 }
 
-@media only screen and (max-width:530px)  {
-    .top-bar-items{
+@media only screen and (max-width:530px) {
+    .top-bar-items {
         width: 100%;
     }
-    .profile_pic{
+
+    .profile_pic {
         display: none;
     }
 }
 
-@media only screen and (max-width:780px){
-    .contact-icons span{
+@media only screen and (max-width:780px) {
+    .contact-icons span {
         display: none;
     }
 }
-@media only screen and (max-width:780px){
-    .contact-icons span{
+
+@media only screen and (max-width:780px) {
+    .contact-icons span {
         display: none;
     }
 
-    .contact-icons{
+    .contact-icons {
         text-align: center;
         display: flex;
         justify-content: space-around;
@@ -367,28 +384,29 @@ section h2{
 
 }
 
-@media only screen and (max-width:850px){
-    .about-me h1{
+@media only screen and (max-width:850px) {
+    .about-me h1 {
         width: 170px;
         height: 120px;
     }
 
-    .project-blog{
+    .project-blog {
         flex-direction: column;
     }
 
-    .home-icon{
+    .home-icon {
         display: none;
     }
-    #experience .content{
+
+    #experience .content {
         flex-direction: column;
     }
 
-    .logo-smarttech{
+    .logo-smarttech {
         width: auto;
     }
 
-    #education .content{
+    #education .content {
         flex-direction: column;
     }
 }
